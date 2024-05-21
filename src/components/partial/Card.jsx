@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Card({p}) {
   return (
-    <Link to={`products/${p.id}`}  className=" rounded-md overflow-hidden w-[25vw] h-[28vh] sm:w-[150px] sm:h-[170px] md:w-[25vw] md:h-[35vh] lg:w-[240px] lg:h-[250px]  bg-yellow-300">
+    <Link to={`products/product/${p.id}`}  className=" rounded-md overflow-hidden w-[25vw] h-[28vh] sm:w-[150px] sm:h-[170px] md:w-[25vw] md:h-[35vh] lg:w-[240px] lg:h-[250px]  bg-yellow-300">
           <div
             style={{
               backgroundImage:

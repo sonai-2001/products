@@ -40,7 +40,7 @@ function Edit() {
            })
            setProducts(edited)
            localStorage.setItem('products', JSON.stringify(edited))
-           navigate("/")
+           navigate("/products")
   }
   const handleSubmit=(e)=>{
           e.preventDefault();

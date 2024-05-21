@@ -8,10 +8,10 @@ import Edit from '../components/Edit.jsx'
 function Routing() {
   return (
    <Routes>
-    <Route path='/'  element={<Home/>}/>
-    <Route path='/add'  element={<Add/>}/>
-    <Route path='/edit/:pid'  element={<Edit/>}/>
-    <Route path='/products/:pid'  element={<Details/>}/>
+    <Route path='/products'  element={<Home/>}/>
+    <Route path='/products/add'  element={<Add/>}/>
+    <Route path='/products/edit/:pid'  element={<Edit/>}/>
+    <Route path='/products/product/:pid'  element={<Details/>}/>
    </Routes>
   )
 }

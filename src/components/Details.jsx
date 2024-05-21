@@ -44,7 +44,7 @@ function Details() {
           </span>
 
           <div className="mt-2 text-center">
-            <Link to={`/edit/${pid}`} className="px-3 py-2 rounded-md border border-blue-300 mr-4">
+            <Link to={`/products/edit/${pid}`} className="px-3 py-2 rounded-md border border-blue-300 mr-4">
               Edit
             </Link>
             <button onClick={()=>handleDelete(pid)}  className="px-3 py-2 rounded-md border border-blue-300">
@@ -57,7 +57,7 @@ function Details() {
       <span
         className="flex items-center absolute top-1 left-2 text-2xl text-white cursor-pointer"
         onClick={() => {
-          navigate("/");
+          navigate("/products");
         }}
       >
         <i className="ri-arrow-left-line"></i>

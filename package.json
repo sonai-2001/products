@@ -1,5 +1,6 @@
 {
   "name": "products",
+  "homepage": "https://sonai-2001.github.io/products/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
