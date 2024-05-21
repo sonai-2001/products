@@ -36,7 +36,7 @@ function Add() {
     };
     setProducts([...products, newproduct]);
     localStorage.setItem('products', JSON.stringify([...products, newproduct]));
-    navigate("/");
+    navigate("/products/");
   };
   return (
     <div className="w-full h-screen flex items-center justify-center">
@@ -88,7 +88,7 @@ function Add() {
         <input className="cursor-pointer" type="submit" value="submit" />
       </form>
       <div  onClick={() => {
-          navigate("/");
+          navigate("/products/");
         }} className="absolute inline top-0 left-5 cursor-pointer">
       <i className="ri-arrow-left-line"></i>
       <span>go back</span>

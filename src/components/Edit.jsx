@@ -40,7 +40,7 @@ function Edit() {
            })
            setProducts(edited)
            localStorage.setItem('products', JSON.stringify(edited))
-           navigate("/products")
+           navigate("/products/")
   }
   const handleSubmit=(e)=>{
           e.preventDefault();
@@ -103,7 +103,7 @@ function Edit() {
         <input className="cursor-pointer" type="submit" value="submit" />
       </form>
       <div  onClick={() => {
-          navigate("/");
+          navigate("/products/");
         }} className="absolute inline top-0 left-5 cursor-pointer">
       <i className="ri-arrow-left-line"></i>
       <span>go back</span>

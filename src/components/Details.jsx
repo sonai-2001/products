@@ -14,7 +14,7 @@ function Details() {
           const afterdelete=products.filter((p)=>p.id!==pid)
           setProducts(afterdelete)
           localStorage.setItem('products', JSON.stringify(afterdelete))
-          navigate("/")
+          navigate("/products/")
   }
   const getProduct = () => {
     const p = products.find((p, i) => p.id == pid);
